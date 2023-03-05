@@ -12,10 +12,13 @@ The client script will connect to the server and prompt the user to enter a user
 
 Requirements
 Python 3.x
+
 PyCrypto (for encryption)
-Usage
+
+
 
 Limitations
+
 The chatroom is implemented using a simple TCP server, which may not be suitable for very large numbers of users or very high traffic. For such scenarios, a more scalable solution such as a message queue or a websockets server should be used.
 The chatroom does not have any authentication or authorization mechanisms, so anyone can connect and join the conversation. To add such features, a user database and login system would need to be implemented.
 The chatroom does not persist messages, so once a user leaves the chatroom, they will not be able to see any messages sent while they were away. To add persistence, a database or file system could be used to store the messages.
