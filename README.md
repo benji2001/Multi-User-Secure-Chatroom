@@ -11,6 +11,7 @@ The client script will connect to the server and prompt the user to enter a user
 
 
 Requirements
+
 Python 3.x
 
 PyCrypto (for encryption)
